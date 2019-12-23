@@ -11,6 +11,8 @@ tkato_module
 | Android                  |              |          |            |
 | GeneralModule_Android    | 1.0.1        | MIT      | 2019/12/23 |
 | BaseDialogModule_Android | 1.0.0        | MIT      | 2019/12/05 |
+| PSFluxModule_Android     | 1.0.0        | MIT      | 2019/12/23 |
+| PSFluxModule_Generator   | 1.0.0        | MIT      | 2019/12/23 |
 
 
 # ライブラリまとめ
@@ -77,4 +79,25 @@ public void onClick(BaseDialogFragment.OnClickListener self, @NonNull String ide
         }
     }
 }
+```
+### PSFluxModule_Android
+Publish-Subscribe 方式に則った Flux 実装補助モジュール。
+`RxJava2`、`RxAndroid` を使用している。
+```build.gradle
+dependencies {
+    implementation ("jp.co.model.tkato:psflux-module:${versions.psflux_module}")
+}
+```
+
+## その他
+
+### PSFluxModule_Generator
+https://github.com/tkato-89024/PSFluxModule_Generator
+
+PSFluxModule を使用する際、Action / ActionCreator / Store のサブクラスを簡易生成するためのジェネレーター。
+PSFluxModule を使用する場合に、ジェネレーターを使う。
+
+python ファイルから実行する。
+```sh
+$ python3 psflux_model_generator_for_android
 ```
