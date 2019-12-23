@@ -9,7 +9,7 @@ tkato_module
 | ライブラリ名               | 最新バージョン | ライセンス | 更新日      |
 | ------------------------ | ------------ | -------- | ---------- |
 | Android                  |              |          |            |
-| GeneralModule_Android    | 1.0.0        | MIT      | 2019/11/26 |
+| GeneralModule_Android    | 1.0.1        | MIT      | 2019/12/23 |
 | BaseDialogModule_Android | 1.0.0        | MIT      | 2019/12/05 |
 
 
