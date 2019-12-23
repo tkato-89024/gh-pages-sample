@@ -28,6 +28,7 @@ repositories {
 ```
 
 ### GeneralModule_Android
+[https://github.com/tkato-89024/GeneralModule_Android](https://github.com/tkato-89024/GeneralModule_Android)
 
 汎用ライブラリ。
 `GeneralModule_iOS`と等価になる（予定）。
@@ -38,6 +39,7 @@ dependencies {
 ```
 
 ### BaseDialogModule_Android
+[https://github.com/tkato-89024/BaseDialogModule_Android](https://github.com/tkato-89024/BaseDialogModule_Android)
 
 汎用ダイアログライブラリ。
 端末を回転させても、ダイアログそのものや、ボタンのリスナーが死なないように改良したもの。
@@ -81,6 +83,8 @@ public void onClick(BaseDialogFragment.OnClickListener self, @NonNull String ide
 }
 ```
 ### PSFluxModule_Android
+[https://github.com/tkato-89024/PSFluxModule_Android](https://github.com/tkato-89024/PSFluxModule_Android)
+
 Publish-Subscribe 方式に則った Flux 実装補助モジュール。
 `RxJava2`、`RxAndroid` を使用している。
 ```build.gradle
@@ -92,7 +96,7 @@ dependencies {
 ## その他
 
 ### PSFluxModule_Generator
-https://github.com/tkato-89024/PSFluxModule_Generator
+[https://github.com/tkato-89024/PSFluxModule_Generator](https://github.com/tkato-89024/PSFluxModule_Generator)
 
 PSFluxModule を使用する際、Action / ActionCreator / Store のサブクラスを簡易生成するためのジェネレーター。
 PSFluxModule を使用する場合に、ジェネレーターを使う。
