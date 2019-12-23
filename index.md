@@ -31,7 +31,7 @@ repositories {
 `GeneralModule_iOS`と等価になる（予定）。
 ```build.gradle
 dependencies {
-    implementation ("jp.co.model.tkato:general_module:${versions.general_module}")
+    implementation ("jp.co.model.tkato:general-module:${versions.general-module}")
 }
 ```
 
@@ -41,7 +41,7 @@ dependencies {
 端末を回転させても、ダイアログそのものや、ボタンのリスナーが死なないように改良したもの。
 ```build.gradle
 dependencies {
-    implementation ("jp.co.model.tkato:basedialog_module:${versions.general_module}")
+    implementation ("jp.co.model.tkato:basedialog-module:${versions.basedialog-module}")
 }
 ```
 ```java
