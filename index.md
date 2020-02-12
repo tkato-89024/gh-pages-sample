@@ -10,7 +10,7 @@ tkato_module
 | ------------------------ | ------------ | -------- | ---------- |
 | Android                  |              |          |            |
 | GeneralModule_Android    | 1.0.2        | MIT      | 2019/12/25 |
-| BaseDialogModule_Android | 1.0.0        | MIT      | 2019/12/05 |
+| BaseDialogModule_Android | 1.0.1        | MIT      | 2020/02/12 |
 | PSFluxModule_Android     | 1.0.0        | MIT      | 2019/12/23 |
 | PSFluxModule_Generator   | 1.0.0        | MIT      | 2019/12/23 |
 
