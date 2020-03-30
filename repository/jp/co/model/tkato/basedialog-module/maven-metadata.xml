@@ -3,10 +3,10 @@
   <groupId>jp.co.model.tkato</groupId>
   <artifactId>basedialog-module</artifactId>
   <versioning>
-    <release>1.0.1-a2</release>
+    <release>1.0.1-b</release>
     <versions>
-      <version>1.0.1-a2</version>
+      <version>1.0.1-b</version>
     </versions>
-    <lastUpdated>20200330065142</lastUpdated>
+    <lastUpdated>20200330070033</lastUpdated>
   </versioning>
 </metadata>
